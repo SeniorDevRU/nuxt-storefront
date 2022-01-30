@@ -1,5 +1,5 @@
 <template>
-  <div id="detailed-cart">
+  <div id="cart">
     <div class="detailed-cart">
       <div v-if="totalItems" class="detailed-cart__aside">
         <!-- Order Summary With Calculation of Price (Product's Number/Subtotal Price/Shipping Price/Total Price) -->
@@ -120,7 +120,7 @@ import {
   SfImage,
 } from "@storefront-ui/vue";
 export default {
-  name: "DetailedCart",
+  name: "Cart",
   components: {
     SfOrderSummary,
     SfButton,
@@ -169,7 +169,7 @@ export default {
       shipping: {
         shippingMethod: {
           isOpen: false,
-          price: "$5.99",
+          price: "$9.90",
           delivery: "Delivery from 3 to 7 business days",
           label: "Pickup in the store",
           value: "store",
@@ -214,7 +214,7 @@ export default {
 </script>
 <style lang="scss" scoped>
 @import "~@storefront-ui/vue/styles";
-#detailed-cart {
+#cart {
   box-sizing: border-box;
   @include for-desktop {
     max-width: 1272px;
@@ -317,7 +317,7 @@ export default {
   }
 }
 </style>
-
+<!-- CSS Customization in public mode -->
 <style>
 #order-summary .sf-order-summary__promo-code {
   display: none;
