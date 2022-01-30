@@ -139,7 +139,7 @@ export default {
           price: { regular: "30.00" },
           configuration: [
             { name: "Size", value: "XS" },
-            { name: "Color", value: "White" },
+            { name: "Color", value: "Black" },
           ],
           qty: 1,
         },
@@ -150,7 +150,7 @@ export default {
           price: { regular: "50.00" },
           configuration: [
             { name: "Size", value: "XS" },
-            { name: "Color", value: "White" },
+            { name: "Color", value: "Black" },
           ],
           qty: 1,
         },
@@ -161,7 +161,7 @@ export default {
           price: { regular: "70.00" },
           configuration: [
             { name: "Size", value: "XS" },
-            { name: "Color", value: "White" },
+            { name: "Color", value: "Black" },
           ],
           qty: 1,
         },
